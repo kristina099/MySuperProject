@@ -3,36 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мой простой сайт</title>
+    <title>Мой Супер Проект</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 40px;
-            background-color: #f0f0f0;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+            background-color: #e5ffbb;
         }
         h1 {
-            color: #333;
+            color: #2c3e50;
         }
-        p {
-            color: #666;
-            line-height: 1.6;
+        .project-goal {
+            color: #34495e;
+            margin-bottom: 20px;
         }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background: white;
-            padding: 20px;
+        .cat-image {
+            max-width: 80%;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border: 3px solid #ebc750;
+        }
+        .info {
+            background-color: #f7f6d9;
+            padding: 15px;
             border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-top: 20px;
+        }
+        .feature {
+            margin: 10px 0;
+            text-align: left;
+            padding-left: 20px;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Добро пожаловать на мой сайт!</h1>
-        <p>Это простая HTML-страница, созданная для работы с Git и GitHub.</p>
-        <p>Здесь может быть описание вашего проекта или любая другая информация.</p>
-        <p>Вы можете легко изменить этот текст, добавить новые элементы или стили.</p>
+    <h1>Мой Супер Проект</h1>
+    <p class="project-goal">Знакомство с программироваем</p>
+    
+    <img class="cat-image" src="img/i.png" alt="Кот программист держит табличку 'пишу код'">
+    
+    
+    <div class="info">
+        <h2>О проекте</h2>
+        <p>Проект помогает программистам работать вместе более эффективно.</p>
+        
+        <div class="feature">Инструменты для совместной работы</div>
+        <div class="feature">Гибкие настройки под вашего кота</div>
+        <div class="feature">Поддержка 24/7 (когда кот не спит)</div>
+
     </div>
 </body>
 </html>
